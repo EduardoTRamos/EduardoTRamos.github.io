@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 120px;
+    scrollbar-width: thin;
+    overflow-y: scroll; /* Scroll sempre visivel */
+    overflow-x: hidden; /* Tira a barra horizontal */
+    scrollbar-color: rgb(23, 23, 23) rgb(39, 39, 39);
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-family: 'IBM Plex Sans'
+}
+
+.ibm-plex-sans-IBM {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+#botaoTopo {
+    background-color: rgb(36, 36, 36);
+    border: 1px solid rgb(237, 208, 59); 
+    border-radius: 5px;
+    padding: 5px;
+
+    text-align: center;
+    position: fixed;
+    width: 90px;
+    right: 10px;
+    bottom: 10px;
+}
+
+hr {  /* Linha separadora */
+    border: none;
+    border-top: 4px solid rgb(23, 23, 23);
+    margin-left: -50px;
+    margin-right: -8px
+}
+
+b {
+    font-size: larger;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 6px;
+    text-decoration: 3px underline rgb(19, 19, 19);
+}
+
+/* MENU DO TOPO */
+        #sticky {
+            background-color: rgb(29, 29, 29);
+            border: 5px solid rgb(18, 18, 18);
+
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            margin: -7px;
+            top: 0%;
+        }
+
+        .Navegacao {
+            display: flex;
+            justify-content: center;
+            gap: 35px; 
+
+            border: 10px double rgb(23, 23, 23);
+            padding: 7px;
+        }
+
+        #linksNav {
+            list-style: none;
+
+            display: flex;
+            gap: 35px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #linksNav li {
+            border: 3px double rgb(36, 36, 36);
+            padding: 6px;
+            background-color: rgb(19, 19, 19);
+            border-radius: 10px;
+        }
+
+        /* #linksNav li:hover {
+            border: 3px double red;
+        } */
+
+/* LINKS */
+    a { 
+        color: rgb(237, 208, 59); 
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: rgb(237, 208, 59); 
+    }
+
+    a:hover { 
+        color: rgb(184, 153, 0);
+    }
+
+#changeLog {
+    background-color: rgb(76, 76, 76);
+    border: 10px double rgb(23, 23, 23);
+    margin: 10px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 15%;
+    
+    overflow-y: scroll; /* cria barra de scroll*/
+    scrollbar-width: thin;
+    scrollbar-color: rgb(23, 23, 23) rgb(39, 39, 39)
+}
+
+#changeLog .tituloLog {
+    display: flex;
+    position: sticky;
+    top: 0%;
+    justify-content: center;
+
+    background-color: rgb(92, 92, 92);
+    border: 3px rgb(54, 54, 54) double;
+    padding: 5px;
+}
+
+#changeLog ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+

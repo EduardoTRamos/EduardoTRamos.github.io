@@ -1,17 +1,1 @@
-Instagram em contact
-
-Tema de casa: Fazer o css da calculadora
-flexbox froggy
-
-Trabalho blog HOME
-Seção de Ultimas Postagens é tipo um "trello" que diz as mudanças
-Ex: 
-- Adicionado pagina Curriculum.html
-- Mudança no CSS para utilizar flexbox
-
 Contato: O FORMULARIO TEM QUE TER INPUTS
-
-Botar referencias ALT nas imagens
-
-Linha footer com icones pra contato?
-Usar icones do googlefonts 

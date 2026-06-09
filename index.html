@@ -5,45 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Eduardo</title>
 
-    <link href="./CSS/styles.css" rel="stylesheet">
-    <link href="./multimidia/img/Logo.png" rel="icon">
+    <link href="./CSS/style.css" rel="stylesheet">
+    <link href="./assets/img/icons/Terminal.svg" rel="icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
 
+    <script src="./JS/script.js"></script>
+</head>
 <body>
-    <div id="sticky">
+    <ul id="menuButtons">
+        <li id="themeButton"><img src="assets/img/icons/lightMode.svg"></li>
+        <li id="fontUp" onclick="fontUp()"><img src="assets/img/icons/fonteUp.svg"></li>
+   <!-- <li id="fontReset" onclick="fontReset()"><img src="assets/img/icons/fonteReset.svg"></li> -->
+        <li id="fontDown" onclick="fontDown()"><img src="assets/img/icons/fonteDown.svg"></li>
+    </ul>
+
+    <nav id="sticky">
         <header>
             <h1>PÁGINA INICIAL</h1>
         </header>
 
-        <nav class="Navegacao">
+        <div>
             <ul id="linksNav">
                 <li><a href="./pages/contact.html">ME CONTATE</a></li>
                 <li><a href="./pages/about.html">SOBRE MIM</a></li>
                 <li><a href="./pages/lyrics.html">MÚSICAS</a></li>
+                <li><a href="./pages/curriculum.html">CURRÍCULO</a></li>
+                <li><a href="./pages/receitas.html">RECEITAS</a></li>
             </ul>
-        </nav>
-    </div>
-
+        </div>
+    </nav>
+<hr>
     <div style="display: flex;"> <!-- Precisa desse container pai pra sidebar -->
         <aside id="changeLog"> 
-            <div class="tituloLog"><b>LOG DE MUDANÇAS</b></div>
+            <div id="tituloLog"><b>LOG DE MUDANÇAS</b></div>
             <ul>
-                <li>02/06/26 - </li>
+                <li>09/06/26 - Finalizada página inicial com caixas de texto e ícones pra cada página.</li>
+                <li>08/06/26 - Criado menu de troca de tema e tamanho de fonte.</li>
+                <li>08/06/26 - Adicionados background pro dark e lightmode feitos pelo meu amigo <a href="https://www.instagram.com/f.tmisael/" target="_blank">Misael</a>.</li>
+                <li>08/06/26 - Re-organizada a estrutura de pasta e revisado a semântica das páginas</li>
+                <li>08/06/26 - Criadas as páginas <a href="./pages/curriculum.html">CURRÍCULO</a> e <a href="./pages/receitas.html">RECEITAS</a> de acordo com as instruções dadas.</li>
                 <li>02/06/26 - Fonte padrão trocada para IBM Plex Sans (serif como backup)</li>
                 <li>01/06/26 - Criado log de mudanças!</li>
             </ul>
- 
         </aside>
+        <main style="flex: 70%;" id="indexMain">
+            <h1><img src="./assets/img/icons/Person.svg">Bem-vindo(a) ao meu blog!</h1>
+            <article>
+                <p>Desenvolvido como parte da disciplina de Desenvolvimento para Web do curso de Análise 
+                e Desenvolvimento de Sistemas da Universidade de Passo Fundo (UPF).</p>
+            </article>
 
-        <main style="display: flex; flex: 70%;">
-            <BR>
-            CONTEUDO PRINCIPAL DA PAGINA AAAAAAAAAAAAAAAAAA<br>
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<BR>
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<BR> 
+            <article>
+                <p>Este espaço foi criado com o objetivo de aplicar na prática os conhecimentos adquiridos nas aulas de terça-feira
+                com o mínimo de consulta exterior possível além do <a href="https://www.leon.dev.br/" target="_blank">blog do nosso professor Leon</a> e a W3SCHOOLS, 
+                atualmente explorando HTML, CSS e Javascript.</p>
+            </article>
+            
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec felis sit amet tellus posuere facilisis. Aliquam porttitor purus quis luctus pulvinar. Aliquam eu nulla viverra, tincidunt eros non, ornare tellus. Vestibulum ultricies felis vitae aliquam finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus pharetra libero non rutrum suscipit. Pellentesque ligula nisl, aliquam ut tincidunt a, pellentesque a neque. Proin ultrices dolor quis purus malesuada efficitur. Sed tempor fringilla sem eget suscipit. Fusce convallis sapien leo, quis posuere est efficitur eu. Sed ex orci, hendrerit eu sagittis ac, ultrices non erat.</p>
+            </article>
         </main>
     </div>
 </body>

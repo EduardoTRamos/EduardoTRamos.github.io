@@ -5,296 +5,312 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicas</title>
 
-    <link href="../multimidia/img/Logo.png" rel="icon">
-    <link href="../CSS/styles.css" rel="stylesheet">
+    <link href="../assets/img/icons/MusicNote.svg" rel="icon">
+    <link href="../CSS/style.css" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
 
+    <script src="../JS/script.js"></script>
+</head>
 <body id="Topo">
-    <div id="sticky">
+    <ul id="menuButtons">
+        <li id="themeButton"><img src="../assets/img/icons/lightMode.svg"></li>
+        <li id="fontUp" onclick="fontUp()"><img src="../assets/img/icons/fonteUp.svg"></li>
+   <!-- <li id="fontReset" onclick="fontReset()"><img src="../assets/img/icons/fonteReset.svg"></li> -->
+        <li id="fontDown" onclick="fontDown()"><img src="../assets/img/icons/fonteDown.svg"></li>
+    </ul>
+
+    <nav id="sticky">
         <header>
             <h1>MÚSICAS</h1>
         </header>
 
-        <nav class="Navegacao">
+        <div>
             <ul id="linksNav">
                 <li><a href="../index.html">IR AO INÍCIO</a></li>
                 <li><a href="contact.html">ME CONTATE</a></li>
                 <li><a href="about.html">SOBRE MIM</a></li>
+                <li><a href="curriculum.html">CURRÍCULO</a></li>
+                <li><a href="receitas.html">RECEITAS</a></li>
             </ul>
-        </nav>
-    </div>
-
-<hr>
+        </div>
+    </nav>
+    <hr>
     <main>
-        <article id="menuLista">
-            <h4>Estas são algumas músicas que eu gosto:</h4>
-            <ol>
+        <section id="ancorasMusicas">
+            <h2>Estas são algumas músicas que eu gosto:</h2>
+            <ul>
                 <li><a href="#Maniac">Maniac - Michael Sambello</a><br>
-                Video: <a href="https://www.youtube.com/watch?v=6GCNUeTFSbA" target="_blank">https://www.youtube.com/watch?v=6GCNUeTFSbA</a><br><br></li>
+                Video: <a href="https://www.youtube.com/watch?v=6GCNUeTFSbA" target="_blank">https://www.youtube.com/watch?v=6GCNUeTFSbA</a></li>
                 <li><a href="#Queen">Don't Stop Me Now - Queen</a><br>
-                Video: <a href="https://www.youtube.com/watch?v=HgzGwKwLmgM" target="_blank">https://www.youtube.com/watch?v=HgzGwKwLmgM</a><br><br></li>
+                Video: <a href="https://www.youtube.com/watch?v=HgzGwKwLmgM" target="_blank">https://www.youtube.com/watch?v=HgzGwKwLmgM</a></li>
                 <li><a href="#Life">That's Life - Frank Sinatra</a><br>
-                Video: <a href="https://www.youtube.com/watch?v=UCENTf_LWYA" target="_blank">https://www.youtube.com/watch?v=UCENTf_LWYA</a><br><br></li>
+                Video: <a href="https://www.youtube.com/watch?v=UCENTf_LWYA" target="_blank">https://www.youtube.com/watch?v=UCENTf_LWYA</a></li>
                 <li><a href="#JustTheTwo">Just the Two of Us - Grover Washington, Jr. (feat. Bill Withers)</a><br>
-                Video: <a href="https://www.youtube.com/watch?v=6POZlJAZsok" target="_blank">https://www.youtube.com/watch?v=6POZlJAZsok</a><br><br></li>
+                Video: <a href="https://www.youtube.com/watch?v=6POZlJAZsok" target="_blank">https://www.youtube.com/watch?v=6POZlJAZsok</a></li>
                 <li><a href="#Somewhere">Always Somewhere - Scorpions</a><br>
-                Video: <a href="https://www.youtube.com/watch?v=AepjLbcLrJE" target="_blank">https://www.youtube.com/watch?v=AepjLbcLrJE</a><br><br></li>
-            </ol>
-        </article>
+                Video: <a href="https://www.youtube.com/watch?v=AepjLbcLrJE" target="_blank">https://www.youtube.com/watch?v=AepjLbcLrJE</a></li>
+            </ul>
+        </section>
         <a href="#Topo" id="botaoTopo">Voltar ao topo</a>
+        <hr>
 
-<hr id="Maniac">
-        <ol>
-            <li class="Musica"><b>MANIAC - Michael Sembello</b><br>
-                Just a steel town girl on a Saturday night<br>
-                Lookin' for the fight of her life<br>
-                In the real-time world no one sees her at all<br>
-                They all say she's crazy<br><br>
-                Locking rhythms to the beat of her heart<br>
-                Changing movement into light<br>
-                She has danced into the danger zone<br>
-                When the dancer becomes the dance<br><br>
+        <article id="Maniac" class="musica">
+            <h3>MANIAC - Michael Sembello</h3>
+            Just a steel town girl on a Saturday night<br>
+            Lookin' for the fight of her life<br>
+            In the real-time world no one sees her at all<br>
+            They all say she's crazy<br><br>
+            Locking rhythms to the beat of her heart<br>
+            Changing movement into light<br>
+            She has danced into the danger zone<br>
+            When the dancer becomes the dance<br><br>
 
-                It can cut you like a knife, if the gift becomes the fire<br>
-                On a wire between will and what will be<br><br>
+            It can cut you like a knife, if the gift becomes the fire<br>
+            On a wire between will and what will be<br><br>
 
-                She's a maniac, maniac on the floor<br>
-                And she's dancing like she's never danced before<br>
-                She's a maniac, maniac on the floor<br>
-                And she's dancing like she's never danced before<br><br>
+            She's a maniac, maniac on the floor<br>
+            And she's dancing like she's never danced before<br>
+            She's a maniac, maniac on the floor<br>
+            And she's dancing like she's never danced before<br><br>
 
-                On the ice-blue line of insanity is a place most never see<br>
-                It's a hard-won place of mystery touch it, but can't hold it<br>
-                You work all your life for that<br>
-                Moment in time, it could come or pass you by<br>
-                It's a push-shove world, but there's always a chance<br>
-                If the hunger stays the night<br><br>
+            On the ice-blue line of insanity is a place most never see<br>
+            It's a hard-won place of mystery touch it, but can't hold it<br>
+            You work all your life for that<br>
+            Moment in time, it could come or pass you by<br>
+            It's a push-shove world, but there's always a chance<br>
+            If the hunger stays the night<br><br>
 
-                There's a cold kinetic heat, struggling, stretching for the beat<br>
-                Never stopping with her head against the wind<br><br>
-                She's a maniac, maniac, I sure know<br>
-                And she's dancing like she's never danced before<br>
-                She's a maniac, maniac, I sure know<br>
-                And she's dancing like she's never danced before<br><br>
+            There's a cold kinetic heat, struggling, stretching for the beat<br>
+            Never stopping with her head against the wind<br><br>
+            She's a maniac, maniac, I sure know<br>
+            And she's dancing like she's never danced before<br>
+            She's a maniac, maniac, I sure know<br>
+            And she's dancing like she's never danced before<br><br>
 
-                It can cut you like a knife, if the gift becomes the fire<br>
-                On a wire between will and what will be<br><br>
+            It can cut you like a knife, if the gift becomes the fire<br>
+            On a wire between will and what will be<br><br>
 
-                She's a maniac, maniac, I sure know (I sure know)<br>
-                And she's dancing like she's never danced before<br>
-                She's a maniac, maniac, I sure know<br>
-                And she's dancing like she's never danced before<br>
-                Maniac, maniac, I sure know<br>
-                And she's dancing like she's never danced before<br>
-                She's a maniac, maniac, I sure know (I sure know)<br>
-                And she's dancing like she's never danced before
-            </li><br>
-<hr id="Queen"><br>
-            <li class="Musica"><b>DON'T STOP ME NOW - Queen</b><br>
-                Tonight, I'm gonna have myself a real good time<br>
-                I feel alive<br>
-                And the world, I'll turn it inside out, yeah<br>
-                I'm floating around in ecstasy, so<br>
-                (Don't stop me now, don't stop me)<br>
-                'Cause I'm having a good time, having a good time<br><br>
+            She's a maniac, maniac, I sure know (I sure know)<br>
+            And she's dancing like she's never danced before<br>
+            She's a maniac, maniac, I sure know<br>
+            And she's dancing like she's never danced before<br>
+            Maniac, maniac, I sure know<br>
+            And she's dancing like she's never danced before<br>
+            She's a maniac, maniac, I sure know (I sure know)<br>
+            And she's dancing like she's never danced before<br><br>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0QKfiqpEU4h9ycPSzIFwYe?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article><br>
+        <hr>
+        <article id="Queen" class="musica">
+            <h3>DON'T STOP ME NOW - Queen</h3>
+            Tonight, I'm gonna have myself a real good time<br>
+            I feel alive<br>
+            And the world, I'll turn it inside out, yeah<br>
+            I'm floating around in ecstasy, so<br>
+            (Don't stop me now, don't stop me)<br>
+            'Cause I'm having a good time, having a good time<br><br>
 
-                I'm a shooting star, leaping through the sky<br>
-                Like a tiger defying the laws of gravity<br>
-                I'm a racing car, passing by like Lady Godiva<br>
-                I'm gonna go, go, go<br>
-                There's no stopping me<br><br>
+            I'm a shooting star, leaping through the sky<br>
+            Like a tiger defying the laws of gravity<br>
+            I'm a racing car, passing by like Lady Godiva<br>
+            I'm gonna go, go, go<br>
+            There's no stopping me<br><br>
 
-                I'm burnin' through the sky, yeah<br>
-                Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-                I'm traveling at the speed of light<br>
-                I wanna make a supersonic man out of you<br><br>
+            I'm burnin' through the sky, yeah<br>
+            Two hundred degrees, that's why they call me Mister Fahrenheit<br>
+            I'm traveling at the speed of light<br>
+            I wanna make a supersonic man out of you<br><br>
 
-                I'm having such a good time, I'm having a ball<br>
-                (Don't stop me now)<br>
-                If you wanna have a good time, just give me a call<br>
-                (Don't stop me now) 'Cause I'm having a good time<br>
-                (Don't stop me now) Yes, I'm having a good time<br>
-                I don't want to stop at all, yeah<br><br>
+            I'm having such a good time, I'm having a ball<br>
+            (Don't stop me now)<br>
+            If you wanna have a good time, just give me a call<br>                
+            (Don't stop me now) 'Cause I'm having a good time<br>
+            (Don't stop me now) Yes, I'm having a good time<br>
+            I don't want to stop at all, yeah<br><br>
 
-                I'm a rocket ship on my way to Mars<br>
-                On a collision course<br>
-                I am a satellite, I'm out of control<br>
-                I'm a sex machine, ready to reload<br>
-                Like an atom bomb<br>
-                About to oh, oh, oh, oh, oh explode<br><br>
+            I'm a rocket ship on my way to Mars<br>
+            On a collision course<br>
+            I am a satellite, I'm out of control<br>
+            I'm a sex machine, ready to reload<br>
+            Like an atom bomb<br>   
+            About to oh, oh, oh, oh, oh explode<br><br>
 
-                I'm burnin' through the sky, yeah<br>
-                Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-                I'm traveling at the speed of light<br>
-                I wanna make a supersonic woman of you<br><br>
+            I'm burnin' through the sky, yeah<br>
+            Two hundred degrees, that's why they call me Mister Fahrenheit<br>
+            I'm traveling at the speed of light<br>
+            I wanna make a supersonic woman of you<br><br>
 
-                Hey, hey, hey<br>
-                (Don't stop me, don't stop me, ooh, ooh, ooh) I like it<br>
-                (Don't stop me, don't stop me) Have a good time, good time<br>
-                (Don't stop me, don't stop me) Ooh, let loose, honey, alright<br><br>
+            Hey, hey, hey<br>
+            (Don't stop me, don't stop me, ooh, ooh, ooh) I like it<br>
+            (Don't stop me, don't stop me) Have a good time, good time<br>
+            (Don't stop me, don't stop me) Ooh, let loose, honey, alright<br><br>
 
-                Oh, I'm burnin' through the sky, yeah<br>
-                Two hundred degrees, that's why they call me Mister Fahrenheit<br>
-                I'm traveling at the speed of light<br>
-                I wanna make a supersonic man out of you<br><br>
+            Oh, I'm burnin' through the sky, yeah<br>
+            Two hundred degrees, that's why they call me Mister Fahrenheit<br>
+            I'm traveling at the speed of light<br>
+            I wanna make a supersonic man out of you<br><br>
 
-                I'm having such a good time, I'm having a ball<br>
-                (Don't stop me now)<br>
-                If you wanna have a good time, just give me a call<br>
-                (Don't stop me now) 'Cause I'm having a good time<br>
-                (Don't stop me now) Yes, I'm having a good time<br>
-                I don't want to stop at all
-            </li><br>
-<hr id="Life"><br>
-            <li class="Musica"><b>THAT'S LIFE - Frank Sinatra</b><br>
-                That's life (that's life)<br>
-                That's what all the people say<br>
-                You're riding high in April, shot down in May<br>
-                But I know I'm gonna change that tune<br>
-                When I'm back on top, back on top in June<br><br>
+            I'm having such a good time, I'm having a ball<br>
+            (Don't stop me now)<br>
+            If you wanna have a good time, just give me a call<br>
+            (Don't stop me now) 'Cause I'm having a good time<br>
+            (Don't stop me now) Yes, I'm having a good time<br>
+            I don't want to stop at all<br><br>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0DrDcqWpokMlhKYJSwoT4B?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article><br>
+        <hr>
+        <article id="Life" class="musica">
+            <h3>THAT'S LIFE - Frank Sinatra</h3>
+            That's life (that's life)<br>
+            That's what all the people say<br>
+            You're riding high in April, shot down in May<br>
+            But I know I'm gonna change that tune<br>
+            When I'm back on top, back on top in June<br><br>
 
-                I said that's life (that's life)<br>
-                And as funny as it may seem<br>
-                Some people get their kicks<br>
-                Stomping on a dream<br>
-                But I don't let it, let it get me down<br>
-                'Cause this fine old world, it keeps spinnin' around<br><br>
+            I said that's life (that's life)<br>
+            And as funny as it may seem<br>
+            Some people get their kicks<br>
+            Stomping on a dream<br>
+            But I don't let it, let it get me down<br>
+            'Cause this fine old world, it keeps spinnin' around<br><br>
 
-                I've been a puppet, a pauper, a pirate, a poet<br>
-                A pawn and a king<br>
-                I've been up and down and over and out<br>
-                And I know one thing<br>
-                Each time I find myself<br>
-                Flat on my face<br>
-                I pick myself up and get<br>
-                Back in the race<br><br>
+            I've been a puppet, a pauper, a pirate, a poet<br>
+            A pawn and a king<br>
+            I've been up and down and over and out<br>
+            And I know one thing<br>
+            Each time I find myself<br>
+            Flat on my face<br>
+            I pick myself up and get<br>
+            Back in the race<br><br>
 
-                That's life (that's life)<br>
-                I tell you, I can't deny it<br>
-                I thought of quitting, baby<br>
-                But my heart just ain't gonna buy it<br>
-                And if I didn't think it was worth one single try<br>
-                I'd jump right on a big bird and then I'd fly<br><br>
+            That's life (that's life)<br>
+            I tell you, I can't deny it<br>
+            I thought of quitting, baby<br>
+            But my heart just ain't gonna buy it<br>
+            And if I didn't think it was worth one single try<br>
+            I'd jump right on a big bird and then I'd fly<br><br>
 
-                I've been a puppet, a pauper, a pirate, a poet<br>
-                A pawn and a king<br>
-                I've been up and down and over and out<br>
-                And I know one thing<br>
-                Each time I find myself layin'<br>
-                Flat on my face<br>
-                I just pick myself up and get<br>
-                Back in the race<br><br>
+            I've been a puppet, a pauper, a pirate, a poet<br>
+            A pawn and a king<br>
+            I've been up and down and over and out<br>
+            And I know one thing<br>
+            Each time I find myself layin'<br>
+            Flat on my face<br>
+            I just pick myself up and get<br>
+            Back in the race<br><br>
 
-                That's life (that's life)<br>
-                That's life and I can't deny it<br>
-                Many times I thought of cutting out, but my heart won't buy it<br>
-                But if there's nothing shaking, come this here July<br>
-                I'm gonna roll myself up<br>
-                In a big ball and die<br>
-            </li><br>
-<hr id="JustTheTwo"><br>
-            <li class="Musica"><b>JUST THE TWO OF US - Grover Washington, Jr. (feat. Bill Withers)</b><br>
-                I see the crystal raindrops fall<br>
-                And the beauty of it all<br>
-                Is when the sun comes shining through<br>
-                To make those rainbows in my mind<br>
-                When I think of you sometime<br>
-                And I wanna spend some time with you<br><br>
+            That's life (that's life)<br>
+            That's life and I can't deny it<br>
+            Many times I thought of cutting out, but my heart won't buy it<br>
+            But if there's nothing shaking, come this here July<br>
+            I'm gonna roll myself up<br>
+            In a big ball and die<br><br>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4dt6XKr0xKdPzjFhwB8dBm?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article><br>
+        <hr>
+        <article id="JustTheTwo" class="musica">
+            <h3>JUST THE TWO OF US - Grover Washington, Jr. (feat. Bill Withers)</h3>
+            I see the crystal raindrops fall<br>
+            And the beauty of it all<br>
+            Is when the sun comes shining through<br>
+            To make those rainbows in my mind<br>
+            When I think of you sometime<br>
+            And I wanna spend some time with you<br><br>
 
-                Just the two of us<br>
-                We can make it if we try<br>
-                Just the two of us<br>
-                (Just the two of us)<br>
-                Just the two of us<br>
-                Building castles in the sky<br>
-                Just the two of us<br>
-                You and I<br><br>
+            Just the two of us<br>
+            We can make it if we try<br>
+            Just the two of us<br>
+            (Just the two of us)<br>
+            Just the two of us<br>
+            Building castles in the sky<br>
+            Just the two of us<br>
+            You and I<br><br>
 
-                We look for love, no time for tears<br>
-                Wasted water's all that is<br>
-                And it don't make no flowers grow<br>
-                Good things might come to those who wait<br>
-                Not for those who wait too late<br>
-                We gotta go for all we know<br><br>
+            We look for love, no time for tears<br>
+            Wasted water's all that is<br>
+            And it don't make no flowers grow<br>
+            Good things might come to those who wait<br>
+            Not for those who wait too late<br>
+            We gotta go for all we know<br><br>
 
-                Just the two of us<br>
-                We can make it if we try<br>
-                Just the two of us<br>
-                (Just the two of us)<br>
-                Just the two of us<br>
-                Building them castles in the sky<br>
-                Just the two of us<br>
-                You and I<br><br>
+            Just the two of us<br>
+            We can make it if we try<br>
+            Just the two of us<br>
+            (Just the two of us)<br>
+            Just the two of us<br>
+            Building them castles in the sky<br>
+            Just the two of us<br>
+            You and I<br><br>
 
-                Just the two of us<br>
-                We can make it, just the two of us (x8)<br><br>
+            Just the two of us<br>
+            We can make it, just the two of us (x8)<br><br>
                 
-                I hear the crystal raindrops fall<br>
-                On the window down the hall<br>
-                And it becomes the morning dew<br>
-                And darling when the morning comes<br>
-                And I see the morning sun<br>
-                I wanna be the one with you<br><br>
+            I hear the crystal raindrops fall<br>
+            On the window down the hall<br>
+            And it becomes the morning dew<br>
+            And darling when the morning comes<br>
+            And I see the morning sun<br>
+            I wanna be the one with you<br><br>
 
-                Just the two of us<br>
-                We can make it if we try<br>
-                Just the two of us<br>
-                (Just the two of us)<br>
-                Just the two of us<br>
-                Building big castles way up high<br>
-                Just the two of us<br>
-                You and I<br><br>
+            Just the two of us<br>
+            We can make it if we try<br>
+            Just the two of us<br>
+            (Just the two of us)<br>
+            Just the two of us<br>
+            Building big castles way up high<br>
+            Just the two of us<br>
+            You and I<br><br>
 
-                Just the two of us<br>
-                (We can make it, just the two of us)<br>
-                Let's get it together, baby, yeah<br>
-                (Just the two of us)<br>
-                Just the two of us<br>
-                (We can make it, just the two of us)
-            </li><br>
-<hr id="Somewhere"><br>
-            <li class="Musica"><b>ALWAYS SOMEWHERE - Scorpions</b><br>
-                Arrive at seven<br>
-                The place feels good<br>
-                No time to call you today<br>
-                Encores till eleven<br>
-                Then Chinese food<br>
-                Back to the hotel again<br><br>
+            Just the two of us<br>
+            (We can make it, just the two of us)<br>
+            Let's get it together, baby, yeah<br>
+            (Just the two of us)<br>
+            Just the two of us<br>
+            (We can make it, just the two of us)<br><br>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1ko2lVN0vKGUl9zrU0qSlT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article><br>
+        <hr>   
+        <article id="Somewhere" class="musica">
+            <h3>ALWAYS SOMEWHERE - Scorpions</h3>
+            Arrive at seven<br>
+            The place feels good<br>
+            No time to call you today<br>
+            Encores till eleven<br>
+            Then Chinese food<br>
+            Back to the hotel again<br><br>
 
-                I call your number<br>
-                The line ain't free<br>
-                I like to tell you come to me<br>
-                A night without you<br>
-                Seems like a lost dream<br>
-                Love, I can't tell you how I feel<br><br>
+            I call your number<br>
+            The line ain't free<br>
+            I like to tell you come to me<br>
+            A night without you<br>
+            Seems like a lost dream<br>
+            Love, I can't tell you how I feel<br><br>
 
-                Always somewhere<br>
-                Miss you where I've been<br>
-                I'll be back to love you again<br>
-                Always somewhere<br>
-                Miss you where I've been<br>
-                I'll be back to love you again<br><br>
+            Always somewhere<br>
+            Miss you where I've been<br>
+            I'll be back to love you again<br>
+            Always somewhere<br>
+            Miss you where I've been<br>
+            I'll be back to love you again<br><br>
 
-                Another morning, another place<br>
-                The only day off is far away<br>
-                But every city<br>
-                Has seen me in the end<br>
-                And brings me to you again<br><br>
+            Another morning, another place<br>
+            The only day off is far away<br>
+            But every city<br>
+            Has seen me in the end<br>
+            And brings me to you again<br><br>
 
-                Always somewhere<br>
-                Miss you where I've been<br>
-                I'll be back to love you again<br>
-                Always somewhere<br>
-                Miss you where I've been<br>
-                I'll be back to love you again
-            </li>
-        </ol>
-<hr>
+            Always somewhere<br>
+            Miss you where I've been<br>
+            I'll be back to love you again<br>
+            Always somewhere<br>
+            Miss you where I've been<br>
+            I'll be back to love you again<br><br>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6Ok4D4w117mSi9OP8tmrpg?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </article><br>
+        <hr><br>
     </main>
-<br><br><br><br><br><br><br>
 </body>
 </html>

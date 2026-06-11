@@ -45,7 +45,8 @@ body {
         border: none;
         border-top: 4px solid rgb(23, 23, 23);
         margin-left: -50px;
-        margin-right: -8px
+        margin-right: -8px;
+        margin-top: 20px;
     }
 
 header {
@@ -248,4 +249,91 @@ table thead th {
     background-color: rgb(10, 10, 10);
     border-radius: 10px;
     padding: 10px;
+}
+
+#mainAbout img {
+    border: 3px rgb(54, 54, 54) double;
+    padding: 5px;
+    margin: 10px 10px 0px 0px; /* top right bottom left */
+}
+
+#imgAbout {
+    width: 170px;
+    height: 180px;
+
+    border-radius: 200px;
+}
+
+#inicioAbout {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+} 
+
+#mainRecipe {
+    display: flex;
+}
+
+#mainRecipe a {
+    text-align: center;
+
+    background-color: rgb(18, 18, 18);
+    /* border: 5px double rgb(36, 36, 36); */
+    border-radius: 10px;
+    width: 100%;
+    margin: 2%;
+    margin-top: 1%;
+    padding: 0px 50px 50px 50px; /* top right bottom left */
+}
+
+#mainRecipe article h1 {
+    border: 2px solid rgb(54, 54, 54);
+    background-color: rgb(20, 20, 20);
+
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#titleRecipe {
+    display: flex;
+    justify-content: center;
+
+    margin: 10px 10px 0px 0px;
+    text-decoration: 2px underline rgb(37, 37, 37);
+}
+
+/* RECEITAS */
+#tortaLink {
+    background-image: url(../assets/img/Tortadebolacha.png);
+    background-repeat: no-repeat;
+}
+
+#salpicaoLink {
+    background-image: url(../assets/img/Salpicao.png);
+    background-repeat: no-repeat;
+}
+
+#peixeLink {
+    background-image: url(../assets/img/Peixefrito.png);
+    background-repeat: no-repeat;
+}
+
+#maracujaLink {
+    background-image: url(../assets/img/Maracuja.png);
+    background-repeat: no-repeat;
+}
+
+.teste {
+    text-align: center;
+
+    background-color: rgb(18, 18, 18);
+    /* border: 5px double rgb(36, 36, 36); */
+    border-radius: 10px;
+    width: 100%;
+    margin: 2%;
+    margin-top: 1%;
+    padding: 0px 50px 50px 50px; /* top right bottom left */
 }

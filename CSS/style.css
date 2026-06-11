@@ -278,7 +278,7 @@ table thead th {
     text-align: center;
 
     background-color: rgb(18, 18, 18);
-    /* border: 5px double rgb(36, 36, 36); */
+    border: 1px solid rgb(36, 36, 36);
     border-radius: 10px;
     width: 100%;
     margin: 2%;
@@ -287,14 +287,11 @@ table thead th {
 }
 
 #mainRecipe article h1 {
-    border: 2px solid rgb(54, 54, 54);
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(18, 18, 18);
+    border: 2px solid rgb(36, 36, 36);
 
-    display: flex;
-    justify-content: center;
-
-    padding: 5px;
     border-radius: 10px;
+    padding: 0px;
 }
 
 #titleRecipe {
@@ -305,7 +302,7 @@ table thead th {
     text-decoration: 2px underline rgb(37, 37, 37);
 }
 
-/* RECEITAS */
+/* imagem dos links em receitas.html */
 #tortaLink {
     background-image: url(../assets/img/Tortadebolacha.png);
     background-repeat: no-repeat;

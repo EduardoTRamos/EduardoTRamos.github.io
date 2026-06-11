@@ -216,7 +216,6 @@ table thead th {
 }
 
 /* Caixas de texto do main no index  */
-
 #indexMain {
     display: flex;
     justify-content: center;
@@ -291,7 +290,7 @@ table thead th {
     border: 2px solid rgb(36, 36, 36);
 
     border-radius: 10px;
-    padding: 0px;
+    padding: 5px;
 }
 
 #titleRecipe {

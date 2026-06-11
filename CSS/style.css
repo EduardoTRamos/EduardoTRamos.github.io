@@ -325,15 +325,3 @@ table thead th {
     background-image: url(../assets/img/Maracuja.png);
     background-repeat: no-repeat;
 }
-
-.teste {
-    text-align: center;
-
-    background-color: rgb(18, 18, 18);
-    /* border: 5px double rgb(36, 36, 36); */
-    border-radius: 10px;
-    width: 100%;
-    margin: 2%;
-    margin-top: 1%;
-    padding: 0px 50px 50px 50px; /* top right bottom left */
-}

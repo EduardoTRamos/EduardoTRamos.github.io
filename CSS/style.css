@@ -306,19 +306,23 @@ table thead th {
 #tortaLink {
     background-image: url(../assets/img/Tortadebolacha.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #salpicaoLink {
     background-image: url(../assets/img/Salpicao.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #peixeLink {
     background-image: url(../assets/img/Peixefrito.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #maracujaLink {
     background-image: url(../assets/img/Maracuja.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }

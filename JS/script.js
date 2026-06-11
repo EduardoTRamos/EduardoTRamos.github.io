@@ -1,9 +1,3 @@
-function mudarTema() {
-    let botao = document.getElementById('theme');
-    botao.classList.toggle("darkTheme");
-    // document.body.classlist.Toggle("")
-}
-
 function fontUp() {
     document.body.classList.toggle("bigfont");
 }

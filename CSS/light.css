@@ -11,11 +11,11 @@ html {
 }
 
 body {
-    background-color: rgb(16, 16, 16);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'IBM Plex Sans';
 
-    background-image: url(../assets/img/backgroundDarkMode.png);
+    background-image: url(../assets/img/backgroundLightMode.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -28,8 +28,9 @@ body {
 }
 
 #botaoTopo {
-    background-color: rgb(19, 19, 19);
-    border: 1px solid rgb(237, 208, 59); 
+    color: black;
+    background-color: rgb(93, 93, 93);
+    border: 1px solid rgb(0, 0, 0); 
     border-radius: 5px;
     padding: 5px;
 
@@ -38,12 +39,14 @@ body {
     width: 90px;
     right: 10px;
     bottom: 10px;
+
+    text-decoration: none;
 }
 
 /* Linha separadora */
     hr {  
         border: none;
-        border-top: 4px solid rgb(23, 23, 23);
+        border-top: 4px solid rgb(232, 232, 232);
         margin-left: -50px;
         margin-right: -8px;
         margin-top: 20px;
@@ -54,21 +57,22 @@ header {
 }
 
 header h1 {
+    color: rgb(0, 0, 0);
     margin: 6px;
-    text-decoration: 3px underline rgb(19, 19, 19);
+    text-decoration: 3px underline rgb(144, 144, 144);
 }
 
-/* Menu do topo */
+/* NAV fixo no topo */
 #sticky {
-    background-color: rgb(29, 29, 29);
-    border: 5px solid rgb(18, 18, 18);
+    background-color: rgb(154, 154, 154);
+    border: 5px solid rgb(148, 148, 148);
 
     display: flex;
     flex-direction: column;
     position: sticky;
     margin: -8px;
     top: 0%;
-    z-index: 998;
+    z-index: 998;   
 }
 
 nav div {
@@ -76,7 +80,7 @@ nav div {
     justify-content: center;
     gap: 35px; 
 
-    border: 10px double rgb(23, 23, 23);
+    border: 10px double rgb(123, 123, 123);
     padding: 7px;
 }
 
@@ -90,38 +94,42 @@ nav div {
 }
 
 #linksNav li {
-    border: 3px double rgb(36, 36, 36);
+    border: 3px double rgb(86, 86, 86);
     padding: 6px;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(207, 207, 207);
     border-radius: 10px;
 }
 
-#linksNav li:hover {
-    border: 3px double rgb(30, 30, 30);
+#linksNav a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#linksNav a:hover {
+    color: rgb(80, 80, 80)
 }
 
 /* LINKS */
     a { 
-        color: rgb(237, 208, 59); 
-        text-decoration: none;
+        color: rgb(0, 0, 0); 
+        text-decoration: underline 2px rgb(255, 196, 0)
     }
 
     a:visited {
-        color: rgb(237, 208, 59); 
-    }
-
-    a:hover { 
-        color: rgb(184, 153, 0);
+        color: rgb(0, 0, 0);
+        text-decoration: underline 2px rgb(255, 196, 0);
     }
 
 /* Log de mudanças */
 #changeLog {
-    background-color: rgb(46, 46, 46);
-    border: 10px double rgb(23, 23, 23);
+    background-color: rgb(238, 238, 238);
+    border: 10px double rgb(255, 255, 255);
     border-radius: 10px;
     margin: 10px;
     height: 450px;
     z-index: 997;
+    color: black;
 
     display: flex;
     flex-direction: column;
@@ -129,7 +137,7 @@ nav div {
     
     overflow-y: scroll; /* cria barra de scroll*/
     scrollbar-width: thin;
-    scrollbar-color: rgb(23, 23, 23) rgb(39, 39, 39);
+    scrollbar-color: rgb(203, 203, 203) rgb(255, 255, 255);
 }
 
 #changeLog #tituloLog {
@@ -138,8 +146,8 @@ nav div {
     top: 0%;
     justify-content: center;
 
-    background-color: rgb(28, 28, 28);
-    border: 3px rgb(54, 54, 54) double;
+    background-color: rgb(207, 207, 207);
+    border: 3px rgb(246, 246, 246) double;
     padding: 5px;
 }
 
@@ -161,21 +169,21 @@ nav div {
 
 /* Table curriculo */
 table caption {
-    background-color: rgb(6, 6, 6);
-    border: double 5px black;
+    background-color: rgb(232, 232, 232);
+    border: double 5px rgb(197, 197, 197);
     font-size: x-large;
     padding: 10px;
 }
 
 table tbody td {
     text-align: center;
-    border: 1px double black;
+    border: 1px double rgb(211, 211, 211);
     padding: 10px;
 }
 
 table thead th {
-    background-color: rgb(10, 10, 10);
-    border: solid black 2px;
+    background-color: rgb(234, 234, 234);
+    border: solid rgb(204, 204, 204) 2px;
     font-size: larger;
     padding: 8px;
 }
@@ -188,15 +196,15 @@ table thead th {
     right: 20px;
     z-index: 999; /* pro elemento ficar no topo sempre */
 
-    background-color: rgb(19, 19, 19);
-    border: 3px double rgb(36, 36, 36);
+    background-color: rgb(121, 121, 121);
+    border: 3px double rgb(173, 173, 173);
     padding: 2px;
     border-radius: 10px;
 }
 
 #menuButtons li {
-    border: 1px rgb(125, 125, 125) solid;
-    background-color: rgb(6, 6, 6);
+    border: 1px rgb(178, 178, 178) solid;
+    background-color: rgb(19, 19, 19);
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
@@ -224,16 +232,16 @@ table thead th {
 }
 
 #indexMain p {
-    border: 5px solid rgb(13, 13, 13);
+    border: 5px solid rgb(221, 221, 221);
     height: auto;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(207, 207, 207);
     border-radius: 10px;
 
     padding: 10px;
 }
 
 #indexMain article {
-    border-bottom: 4px solid rgb(23, 23, 23);
+    border-bottom: 4px solid rgb(239, 239, 239);
     border-radius: 20px;
     margin: 0px 4% 0px 4%;
 }
@@ -246,14 +254,14 @@ table thead th {
     height: auto;
     margin: 0 auto 0;
 
-    border: 5px solid rgb(13, 13, 13);
-    background-color: rgb(10, 10, 10);
+    border: 5px solid rgb(227, 227, 227);
+    background-color: rgb(207, 207, 207);
     border-radius: 10px;
     padding: 10px;
 }
 
 #mainAbout img {
-    border: 3px rgb(54, 54, 54) double;
+    border: 3px rgb(192, 192, 192) double;
     padding: 5px;
     margin: 10px 10px 0px 0px; /* top right bottom left */
 }
@@ -288,6 +296,7 @@ table thead th {
 }
 
 #mainRecipe article h1 {
+    color: white;
     background-color: rgb(18, 18, 18);
     border: 2px solid rgb(36, 36, 36);
 
@@ -295,12 +304,17 @@ table thead th {
     padding: 5px;
 }
 
+#mainRecipe a {
+    text-decoration: none;
+}
+
 #titleRecipe {
     display: flex;
     justify-content: center;
 
     margin: 10px 10px 0px 0px;
-    text-decoration: 2px underline rgb(37, 37, 37);
+    text-decoration: 2px underline rgb(74, 74, 74);
+    color: rgb(53, 53, 53)
 }
 
 /* imagem dos links em receitas.html */

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Eduardo</title>
 
-    <link href="./CSS/style.css" rel="stylesheet">
+    <link href="./CSS/style.css" rel="stylesheet" id="lightTheme">
+    <link href="./CSS/light.css" rel="stylesheet" id="darkTheme" disabled>
+
     <link href="./assets/img/icons/Terminal.svg" rel="icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +18,7 @@
 </head>
 <body>
     <ul id="menuButtons">
-        <li id="themeButton"><img src="assets/img/icons/lightMode.svg"></li>
+        <li id="themeButton" onclick="toggleTheme()"><img src="assets/img/icons/Cor.svg"></li>
         <li id="fontUp" onclick="fontUp()"><img src="assets/img/icons/fonteUp.svg"></li>
    <!-- <li id="fontReset" onclick="fontReset()"><img src="assets/img/icons/fonteReset.svg"></li> -->
         <li id="fontDown" onclick="fontDown()"><img src="assets/img/icons/fonteDown.svg"></li>
@@ -53,7 +55,7 @@
             </ul>
         </aside>
         <main style="flex: 70%;" id="indexMain">
-            <h1><img src="./assets/img/icons/Person.svg">Bem-vindo(a) ao meu blog!</h1>
+            <h1>Bem-vindo(a) ao meu blog!</h1>
             <article>
                 <p>Desenvolvido como parte da disciplina de Desenvolvimento para Web do curso de Análise 
                 e Desenvolvimento de Sistemas da Universidade de Passo Fundo (UPF).</p>

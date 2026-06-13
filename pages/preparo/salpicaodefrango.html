@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salpicão de frango</title>
-
-    <link href="../../CSS/style.css" rel="stylesheet">
+    
     <link href="../../assets/img/icons/ForknSpoon.svg" rel="icon">
+
+    <link href="../../CSS/style.css" rel="stylesheet" id="lightTheme">
+    <link href="../../CSS/light.css" rel="stylesheet" id="darkTheme" disabled>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +19,9 @@
 </head>
 <body>
     <ul id="menuButtons">
-        <li id="themeButton"><img src="../../assets/img/icons/lightMode.svg"></li>
+        <li id="themeButton" onclick="toggleTheme()"><img src="../../assets/img/icons/Cor.svg"></li>
         <li id="fontUp" onclick="fontUp()"><img src="../../assets/img/icons/fonteUp.svg"></li>
-        <!-- <li id="fontReset" onclick="fontReset()"><img src="../../assets/img/icons/fonteReset.svg"></li> -->
+   <!-- <li id="fontReset" onclick="fontReset()"><img src="../../assets/img/icons/fonteReset.svg"></li> -->
         <li id="fontDown" onclick="fontDown()"><img src="../../assets/img/icons/fonteDown.svg"></li>
     </ul>
 

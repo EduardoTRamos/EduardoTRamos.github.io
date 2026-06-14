@@ -327,3 +327,96 @@ table thead th {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* PAGINA DE CONTATOS */
+#formFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgb(4, 4, 4);
+    border: 4px solid #1a1a1a;
+    border-radius: 10px;
+    padding: 40px 50px 35px 50px;
+    margin: 20px auto 0px auto; /* top right bottom left */
+    width: fit-content;
+    font-size: larger;
+}
+
+#formFull h1 {
+    border: 10px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    background-color: rgb(8, 8, 8);
+    margin: 0px auto 0px auto;
+    padding-top: 0px;
+    color: rgb(255, 213, 0);
+}
+
+#formFull p {
+    margin: 10px 0 5px 0;
+}
+
+.formGroup {
+    text-align: center;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(6, 6, 6);
+}
+
+#formFull button {
+    display: flex;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    border: 1px rgb(70, 70, 70) solid;
+    border-radius: 10px;
+        width: 200px;
+        height: 35px;
+
+    display: block; /* pq o display padrao de um button é inline-block e isso nao aceita margin auto */
+    margin: 0px auto 0px auto;
+}
+
+.formBloco {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+}
+
+.formBlocoTitulo {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+#altContatos {
+    background-color: rgb(8, 8, 8);
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 10px;
+
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+
+#altContatos h3 {
+    margin: 0px auto 0px auto; /* tirar a margem padrao nojenta do h3 */
+    background-color: rgb(10, 10, 10);
+    border: 1px rgb(70, 70, 70) solid;
+    border-radius: 8px;
+    padding: 7px;
+    width: 290px;
+}
+
+#altContatos b {
+    color: gold;
+    margin: 9px;
+}
+
+#altContatos ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}

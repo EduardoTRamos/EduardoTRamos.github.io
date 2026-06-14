@@ -13,8 +13,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
-    <script src="../JS/script.js"></script>
 </head>
 <body>
     <ul id="menuButtons">
@@ -40,31 +38,52 @@
         </div>
     </nav>
 <hr>
-    <main><br>
-        <article>  
-            <b>WHATSAPP:</b> (54)99171-1231<br> 
-            <b>EMAIL:</b> etr.eduardo30@gmail.com<br>
-            <b>EMAIL DA FACULDADE:</b> 215708@upf.br<br>
-            <b>INSTAGRAM:</b> @ramos_eduardot<br>
+    <main>
+        <article id="formFull">
+            <h1>ENTRE EM CONTATO</h1>
+            <p>Preencha o formulário abaixo e responderei o mais breve possível.</p>
+            
+            <form>
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Nome completo:</label><br>
+                    <input class="formBloco"
+                        type="text"
+                        required
+                        placeholder="Digite seu nome">
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">G-mail</label><br>
+                    <input class="formBloco" 
+                        type="email"
+                        required
+                        placeholder="exemplo@gmail.com.br">
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Telefone</label><br>
+                    <input class="formBloco" id="telefoneID"
+                        type="tel"
+                        placeholder="(00) 00000-0000">
+                </section>
+
+                <section class="formGroup">
+                    <label class="formBlocoTitulo">Mensagem</label><br>
+                    <textarea class="formBloco" rows="3" required style="resize: none;"></textarea>
+                </section>
+                <button id="submitButton">ENVIAR MENSAGEM</button>
+            </form>
+
+            <section id="altContatos">
+                <h3>OU ME CONTATE EM:</h3>
+                <ul>
+                    <li><b>WHATSAPP:</b>(54)99171-1231</li>
+                    <li><b>EMAIL:</b>215708@upf.br</li>
+                    <li><b>INSTAGRAM:</b>@ramos_eduardot</li>
+                </ul>
+            </section>
         </article>
-<hr>
-
-        <!-- Em casa, tente criar sua página de contato utilizando formulários. 
-        Crie um formulário de cadastro utilizando qualquer quantidade de inputs para obter informações do usuário.
-            <h3>Envie suas informações para contato:</h3>
-            <form id="Formulario">
-                <label for="nome">Nome:</label> 
-                <input type="text" required minlength="3" maxlength="100" size="25" name="nome"><br>
-
-                <label for="telefone">Telefone:</label>
-                <input type="number" required size="13" name="telefone"><br>
-
-                <label for="email">Email:</label>
-                <input type="email" required size="25" placeholder="email@email.com" name="email"><br>
-
-                <button type="submit">Enviar</button>
-            </form><br><br> 
-        <hr> -->
     </main>
+<script src="../JS/script.js"></script>
 </body>
 </html>
